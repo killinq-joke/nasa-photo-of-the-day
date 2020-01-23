@@ -5,7 +5,7 @@ function Main(props) {
     return(
         <div>
             <h1>{props.title}</h1>
-            <p>{props.explanation}</p>
+            <h2>{props.explanation}</h2>
             <img src={props.img}/>
         </div>
     )
